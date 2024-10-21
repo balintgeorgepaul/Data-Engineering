@@ -1,7 +1,0 @@
-The powershell scripts attached to this project are used to upload data from local excel file into a SharePoint list using Powershell commands. 
-It contains multiple files as follows:
-
-- ReadFirstRow.ps1 - > this script returns the first row of the SharePoint list. It's used to test the connectivity and read possibility.
-- DeleteList.ps1 -> this script delete data from the SharePoint list.
-- GetColumns.ps1 -> this script get the name of the columns of a SharePoint list as their internal name may be different from their visible values. This helps with the mapping to excel.
-- Upload.ps1 -> this list get data from the local excel file into SharePoint row by row.
